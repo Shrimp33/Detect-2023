@@ -1,13 +1,13 @@
 import time
 from gpiozero import LED
 
-# Red LED pin 36
-# Green LED pin 38
-# Blue LED pin 40
+# Red LED gpio 16
+# Green LED gpio 20
+# Blue LED gpio 21
 
-# red = LED(36)
-# green = LED(38)
-blue = LED(40)
+red = LED(16)
+green = LED(20)
+blue = LED(21)
 
 # Only blue works rn
 blue.on()
