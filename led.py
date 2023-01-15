@@ -9,7 +9,17 @@ red = LED(16)
 green = LED(20)
 blue = LED(21)
 
-# Only blue works rn
-blue.on()
-time.sleep(10.0)
-blue.off()
+# Blinking Test
+while True:
+    red.on()
+    time.sleep(1)
+    red.off()
+    time.sleep(1)
+    green.on()
+    time.sleep(1)
+    green.off()
+    time.sleep(1)
+    blue.on()
+    time.sleep(1)
+    blue.off()
+    time.sleep(1)
