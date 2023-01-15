@@ -5,11 +5,11 @@ from gpiozero import LED
 # Green LED pin 38
 # Blue LED pin 40
 
-red = LED(36)
-green = LED(38)
+# red = LED(36)
+# green = LED(38)
 blue = LED(40)
 
 # Only blue works rn
 blue.on()
-time.sleep(5)
+time.sleep(10.0)
 blue.off()
